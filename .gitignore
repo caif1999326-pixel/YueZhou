@@ -1,0 +1,59 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Packaged applications and build intermediates
+build/
+dist/
+release*/
+*.exe
+*.msi
+*.log
+
+# User novels, exports, settings, and chapter caches
+outputs/
+downloads/
+我的小说/
+阅舟数据/
+.novel-cache/
+搜索缓存/
+settings.json
+书源.json
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.txt
+!requirements.txt
+*.html
+*.partial
+*.tmp
+
+# Local benchmark/probe results and scratch directories
+benchmark*.json
+quality-live-results.json
+live_quality_results.json
+quality-live-work/
+speed-live-*/
+source-probe-*/
+
+# Local credentials and editor/OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store
